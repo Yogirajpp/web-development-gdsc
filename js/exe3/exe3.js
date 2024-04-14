@@ -1,13 +1,10 @@
-// Get references to HTML elements
-var decrementBtn 
-var incrementBtn
-var counterDisplay 
+function submitFeedback(emoji) {
+    const feedback = prompt("Enter your feedback:");
 
-// Define a variable to store the counter value
-var counter = 0;
-
-// Add event listener to the increment button
-incrementBtn.addEventListener(??);
-
-// Add event listener to the decrement button
-decrementBtn.addEventListener(??);
+    if (feedback) {
+        
+        alert("Thank you for your feedback!");
+    } else {
+        alert("Please enter your feedback.");
+    }
+}

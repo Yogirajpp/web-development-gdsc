@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter with Increment and Decrement</title>
+    <title>Feedback Form</title>
     <link rel="stylesheet" href="exe3.css">
 </head>
 <body>
-    <h1>Counter</h1>
-    <div class="btn">
-        <button id="decrementBtn">Decrement</button>
-        <button id="incrementBtn">Increment</button>
+    <h1>Feedback Form</h1>
+    <div class="FeedbackButton">
+        <button onclick="submitFeedback('😡')">😡</button>
+        <button onclick="submitFeedback('😠')">😠</button>
+        <button onclick="submitFeedback('😐')">😐</button>
+        <button onclick="submitFeedback('🙂')">🙂</button>
+        <button onclick="submitFeedback('😊')">😊</button>
     </div>
-    <p id="counter">0</p>
-
+    <div id="feedbackList"></div>
     <script src="exe3.js"></script>
 </body>
 </html>

@@ -1,41 +1,43 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    
 }
+
+
 
 h1 {
     text-align: center;
+    color: #333;
 }
 
-.btn {
+.FeedbackButton {
     display: flex;
+    text-align: center;
     justify-content: center;
 }
 
 button {
+    font-size: 20px;
     padding: 10px 20px;
-    margin: 10px;
-    background-color: #4CAF50;
-    color: white;
+    margin: 5px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #45a049;
 }
 
-#counter {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 20px auto;
-    width: 100px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
+#feedbackList {
+    margin-top: 20px;
 }
+
+
+
